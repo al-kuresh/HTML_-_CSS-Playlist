@@ -1,0 +1,3 @@
+href is for hyperlinking and target will decide whether it will open in the current page or or in a new tab
+target="" is open in the current page
+target = "blank" open in a new tab

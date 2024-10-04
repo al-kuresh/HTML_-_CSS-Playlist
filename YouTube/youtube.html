@@ -6,18 +6,55 @@
         </title>
         <style>
             .thumbnails {
+                display: block;
                 width: 300px;
             }
             .search-bar {
                 font-size: 20px;
-                margin-left: 12px;
+                display: block;
+                
+            }
+            .Video-title{
+                width: 300px;
+            }
+            .Video-Preview{
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
             }
 
         </style>
     </head>
     <body>
-        <img class ="thumbnails" src="Thumbnail/thumbnail-1.webp">
         <input class = "search-bar" type="type" placeholder="search">
+
+        <div class="Video-Preview">
+          <img class ="thumbnails" src="Thumbnail/thumbnail-1.webp">
+          <p class="Video-title"> 
+             Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-Author">
+              Marques Brownlee
+          </p>
+          <p class="video-stats">
+              3.4M views &#183; 6 months ago
+          </p>
+        </div>
+
+        <div class="Video-Preview">
+            <img class ="thumbnails" src="Thumbnail/thumbnail-2.webp">
+            <p class="Video-title"> 
+                Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-Author">
+                Markiplier
+            </p>
+            <p class="video-stats">
+                19M views &#183; 4 years ago
+            </p>
+          </div>
+        
     </body>
 
 
